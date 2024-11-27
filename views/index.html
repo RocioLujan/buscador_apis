@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCADOR DE API</title>
+    <link rel="icon" type="image/png" href="/images/thor_logo.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/images/thor_logo.png" alt="Logo de header" class="logo">
+        <h1>BUSCADOR DE APIs THOR</h1>
+    </header>
+    <main>
+        <div id="welcomeMessage">¡Bienvenido! Este es un buscador de API. Haga su búsqueda en el formulario que se encuentra a la derecha.</div>
+        <form id="apiForm">
+            <label for="apiUrl">Ingresa la URL que deseas buscar:</label>
+            <input type="url"  id="apiUrl" name="apiUrl" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="notification"></div>
+        <div id="results"></div>
+        <div id="successMessage" style="display: none;"></div> <!-- Mensaje de éxito -->
+        <div id="buttons"></div>
+        <div id="messageContainer"></div>
+        
+    </main>
+    <footer>
+        <img src="/images/thor_logo.png" alt="Logo del footer" class="logo">
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
+
