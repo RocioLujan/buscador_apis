@@ -131,3 +131,6 @@ document.getElementById('apiForm').addEventListener('submit', function () {
         welcomeMessage.style.display = 'none'; // Oculta el mensaje de bienvenida
     }
 });
+
+// HOLI QUIERO COMITEAR ALGO
+
