@@ -132,5 +132,3 @@ document.getElementById('apiForm').addEventListener('submit', function () {
     }
 });
 
-// HOLI QUIERO COMITEAR ALGO
-
